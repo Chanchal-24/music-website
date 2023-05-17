@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* css for navigation--------------------------------------------------- */
+.container{
+    /* position: relative; */
+    display: block;
+}
+.spotifylogo{
+    height: 33px;
+    width: 33px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    /* justify-content: center; */
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    padding-right: 22px;
+    cursor: pointer;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.link1{
+    margin: 2px;
+    padding: 2px;
+    cursor: pointer;
+}
+/* css for bottom----------------------------------------------------------- */
+.butt1{
+    height: 33px;
+    width: 33px;
+    color: wheat;
+    cursor: pointer;
+}
+
+.bottom{
+    background-color: rgb(99, 55, 55);
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+}
+.progressbar{
+    width: 100%;
+    cursor: pointer;
+}
+/* css for maincontain------------------------------------------------------- */
+/* .photo{
+    height: 100vw; */
+    /* width: 100vw; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .backgroundimg{
+    
+    height: 95vw;
+    width: 88vw;
+    
+} */
+#maincontain{
+    /* display: flex; */
+}
+    /* background-color: bisque;s */
+    /* padding: 2vh 2vw; */
+.butt2{
+    height: 20px;
+    width: 20px;
+    margin-left: 15px ;
+    margin-right: 2px;
+    cursor: pointer;
+    position: absolute;
+    right: 15vw;
+}
+.butt3{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+}
+/* #maincontain::before{
+   background-color: rgb(219, 216, 47);
+    background:url(/backgraund-img.jpg) no-repeat center;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 2;
+} */
+/* #maincontain::before {
+    background-color: white;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 2;
+} */
+.song{
+    background-color: rgb(188, 33, 33);
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    padding-left: 22px;
+}
